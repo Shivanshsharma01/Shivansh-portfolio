@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat',
+        sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: blue;
+    --grey-color: grey;
+    --of-white: #F3F4F6;
+
+
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.links {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.link-active {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.links-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.links-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    margin: auto;
+
+}
+
+/* a.links-secondary :hover  {
+    color: var(--primary-color);
+} */
+
+.list-non-bullet {
+    list-style: none;
+
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.list-non-bullet .list-gap {
+
+    margin-top: 3rem;
+}
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.navigation .link {
+
+    color: white;
+}
+
+.navigation .nav-brand {
+    font-weight: bold;
+
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+    margin-top: 5rem;
+}
+
+.hero .hero-img {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    color: var(--grey-color);
+
+    padding: 1rem;
+
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+.section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.ow {
+    background-color: var(--of-white);
+}
+
+.footer {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 2rem 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+
+}
+
+.footer .links {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+
+}
+
+.footer .footer-header {
+    font-size: large;
+    font-weight: bold;
+}
