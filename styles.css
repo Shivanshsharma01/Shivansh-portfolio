@@ -32,6 +32,7 @@ hr {
 .links {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: white;
 }
 
 .link-active {
@@ -40,6 +41,13 @@ hr {
 }
 
 .links-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+    margin-top: 2rem;
+}
+
+.links .links-primary {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
