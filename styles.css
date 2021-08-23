@@ -7,11 +7,9 @@ body {
 }
 
 :root {
-    --primary-color: blue;
-    --grey-color: grey;
+    --primary-color: #FF9933;
+    --grey-color: black;
     --of-white: #F3F4F6;
-
-
 }
 
 hr {
@@ -62,9 +60,6 @@ hr {
 
 }
 
-/* a.links-secondary :hover  {
-    color: var(--primary-color);
-} */
 
 .list-non-bullet {
     list-style: none;
@@ -95,6 +90,8 @@ hr {
 
 .navigation .nav-brand {
     font-weight: bold;
+    font-size: x-large;
+    
 
 }
 
@@ -162,3 +159,18 @@ hr {
     font-size: large;
     font-weight: bold;
 }
+
+
+  .socialIcon {
+        display: inline-block;
+        block-size: 2rem;
+        margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 40.5em) {
+    .navigation .nav-brand {
+        font-weight: bold;
+        
+    
+    }
+  }
