@@ -107,10 +107,11 @@ hr {
     padding: 2rem;
     padding-top: 5rem;
     margin-top: 5rem;
+    
 }
 
 .hero .hero-img {
-    max-width: 350px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
@@ -133,10 +134,14 @@ hr {
     max-width: 70%;
     margin: auto;
     border-radius: 2rem;
+    border-width: 10px;
+    border-color: black;
+    
 }
 
 .ow {
     background-color: var(--of-white);
+   
 }
 
 .footer {
