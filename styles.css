@@ -19,7 +19,7 @@ hr {
 .container {
     padding-left: 1rem;
     padding-right: 1rem;
-    
+
 }
 
 .container-center {
@@ -27,9 +27,14 @@ hr {
     margin: auto;
 }
 
+.container-center-blog {
+    max-width: 1000px;
+    margin: auto;
+}
+
 .links {
     text-decoration: none;
-    padding: 0.5rem ;
+    padding: 0.5rem;
     color: white;
 }
 
@@ -75,6 +80,7 @@ hr {
 
     margin-top: 3rem;
 }
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -91,7 +97,7 @@ hr {
 .navigation .nav-brand {
     font-weight: bold;
     font-size: x-large;
-    
+
 
 }
 
@@ -107,13 +113,21 @@ hr {
     padding: 2rem;
     padding-top: 5rem;
     margin-top: 5rem;
-    
+
 }
 
 .hero .hero-img {
     max-width: 300px;
     display: block;
     margin: auto;
+}
+
+.hero-img-blog {
+    width: 70%;
+    display: block;
+    margin: 2rem auto;
+    height: 20rem;
+
 }
 
 .hero .hero-heading {
@@ -130,18 +144,18 @@ hr {
 
 .section {
     text-align: center;
-    padding:  2rem ;
+    padding: 2rem;
     max-width: 70%;
     margin: auto;
     border-radius: 2rem;
     border-width: 10px;
     border-color: black;
-    
+
 }
 
 .ow {
     background-color: var(--of-white);
-   
+
 }
 
 .footer {
@@ -169,16 +183,20 @@ hr {
 }
 
 
-  .socialIcon {
-        display: inline-block;
-        block-size: 2rem;
-        margin-top: 1rem;
-  }
+.socialIcon {
+    display: inline-block;
+    block-size: 2rem;
+    margin-top: 1rem;
+}
 
-  @media screen and (min-width: 40.5em) {
+p {
+    font-size: large;
+}
+
+@media screen and (min-width: 40.5em) {
     .navigation .nav-brand {
         font-weight: bold;
-        
-    
+
+
     }
-  }
+}
