@@ -68,6 +68,7 @@ hr {
 
 .list-non-bullet {
     list-style: none;
+    margin: auto;
 
 }
 
