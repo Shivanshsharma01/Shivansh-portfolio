@@ -145,9 +145,9 @@ hr {
 
 .section {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem ;
     max-width: 80%;
-    margin: auto;
+    margin: auto ;
     border-radius: 2rem;
     border-width: 10px;
     border-color: black;
@@ -156,7 +156,7 @@ hr {
 
 .ow {
     background-color: var(--of-white);
-    margin: auto;
+   
 
 }
 
@@ -195,10 +195,9 @@ p {
     font-size: large;
 }
 
-@media screen and (min-width: 40.5em) {
-    .navigation .nav-brand {
-        font-weight: bold;
-
-
-    }
+ol li {
+    margin-right: 2rem;
+}
+ol .ow {
+    margin-right: 2rem;
 }
