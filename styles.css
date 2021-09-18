@@ -201,3 +201,9 @@ ol li {
 ol .ow {
     margin-right: 2rem;
 }
+
+@media screen and (max-width: 540px) {
+  #btn {
+      display: none;
+  } }
+
