@@ -88,6 +88,8 @@ hr {
     padding: 1rem;
     border-bottom-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    position: sticky;
+    top: 0px;
 }
 
 .navigation .link {
